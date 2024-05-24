@@ -72,8 +72,8 @@ const Home = () => {
             height="62px"
             width="62px"
           />
-          Now with  <span> shelves and a progress bar.</span> See what's new in Sleeve
-          2.3
+          Now with <span> shelves and a progress bar.</span> See what's new in
+          Sleeve 2.3
           <svg
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -97,10 +97,17 @@ const Home = () => {
       </section>
 
       <section id="content">
-
+        <p id="new">
+          NEW IN <span>2.0</span>
+        </p>
+        <h4>Themes. Unlimited themes.</h4>
+        <p id="themes-content">
+          Themes in Sleeve make creating and switching between customizations
+          easy. Share your own creations with friends and install as many themes
+          as you like with just a double-click.
+        </p>
       </section>
     </div>
-
   );
 };
 
