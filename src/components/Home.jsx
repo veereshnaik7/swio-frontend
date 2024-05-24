@@ -3,6 +3,10 @@ import appleMusic from "../Assets/ImagesFolder/AppMusic@2x.png";
 import spotify from "../Assets/ImagesFolder/AppSpotify@2x.png";
 import doppler from "../Assets/ImagesFolder/AppDoppler@2x.png";
 import shelfCallOut from "../Assets/ImagesFolder/ShelfCallout@2x.png";
+import contentBoxLastImg from "../Assets/ImagesFolder/ArtPetitBiscuit.jpg";
+import contentBoxFirstImg from "../Assets/ImagesFolder/ArtSlowMagic.jpg";
+import contentBoxSecondImg from "../Assets/ImagesFolder/ArtCarolinePolachek.jpg";
+import contentBoxThirdImg from "../Assets/ImagesFolder/ArtChelseaCutler.jpg";
 
 const Home = () => {
   return (
@@ -106,6 +110,67 @@ const Home = () => {
           easy. Share your own creations with friends and install as many themes
           as you like with just a double-click.
         </p>
+        <div id="contentBox">
+          <div id="img-content">
+            <div id="contentBox1">
+              <img src={contentBoxFirstImg} alt="" />
+              <span>
+                <b>Eternal Sunshine</b>
+              </span>
+              <span>Forgotten Feels</span>
+              <span>Slow Magic</span>
+            </div>
+            <div id="contentBox2">
+              <img src={contentBoxSecondImg} alt="" />
+              <div id="contentBox2-right">
+                <span>
+                  <b>Bunny Is a Rider</b>
+                </span>
+                <span style={{ opacity: "0.7" }}>
+                  Desire, I Want to Turn Into You
+                </span>
+                <span style={{ opacity: "0.7" }}>Caroline Polachek</span>
+                <span style={{ marginTop: "10px" }}>
+                  <svg
+                    viewBox="0 0 65 21"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    height="16"
+                    class="transform-gpu"
+                  >
+                    <path d="M61.59 16.578c.625 0 .922-.297.922-.922V5.07c0-.648-.297-.93-.922-.93h-1.727c-.625 0-.93.305-.93.93v5c-.078-.273-.273-.5-.609-.703l-8.031-4.719c-.273-.156-.523-.265-.805-.265-.531 0-1 .406-1 1.195v9.555c0 .789.469 1.195 1 1.195.282 0 .54-.101.805-.265l8.031-4.72c.328-.202.531-.429.61-.702v5.015c0 .625.304.922.93.922h1.726ZM30.426 17.65c.694 0 1.037-.334 1.037-1.037V4.704c0-.73-.343-1.046-1.037-1.046h-1.951c-.695 0-1.038.343-1.038 1.046v11.91c0 .702.343 1.036 1.038 1.036h1.95Zm6.1 0c.694 0 1.036-.334 1.036-1.037V4.704c0-.73-.342-1.046-1.037-1.046h-1.95c-.695 0-1.038.343-1.038 1.046v11.91c0 .702.343 1.036 1.037 1.036h1.951ZM5.144 16.578c.617 0 .921-.297.921-.922v-5.015c.079.273.282.5.618.703l8.03 4.719c.266.164.516.265.798.265.539 0 1-.406 1-1.195V5.578c0-.789-.461-1.195-1-1.195-.282 0-.532.11-.797.265l-8.031 4.72c-.336.202-.54.429-.618.702v-5c0-.648-.304-.93-.921-.93H3.41c-.617 0-.922.305-.922.93v10.586c0 .625.305.922.922.922h1.735Z"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div id="contentBox3">
+              <img src={contentBoxThirdImg} alt="" />
+              <div id="contentBox3-bottom">
+                <span>
+                  <svg
+                    viewBox="0 0 65 21"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    height="16"
+                    class="transform-gpu"
+                  >
+                    <path d="M61.59 16.578c.625 0 .922-.297.922-.922V5.07c0-.648-.297-.93-.922-.93h-1.727c-.625 0-.93.305-.93.93v5c-.078-.273-.273-.5-.609-.703l-8.031-4.719c-.273-.156-.523-.265-.805-.265-.531 0-1 .406-1 1.195v9.555c0 .789.469 1.195 1 1.195.282 0 .54-.101.805-.265l8.031-4.72c.328-.202.531-.429.61-.702v5.015c0 .625.304.922.93.922h1.726ZM30.426 17.65c.694 0 1.037-.334 1.037-1.037V4.704c0-.73-.343-1.046-1.037-1.046h-1.951c-.695 0-1.038.343-1.038 1.046v11.91c0 .702.343 1.036 1.038 1.036h1.95Zm6.1 0c.694 0 1.036-.334 1.036-1.037V4.704c0-.73-.342-1.046-1.037-1.046h-1.95c-.695 0-1.038.343-1.038 1.046v11.91c0 .702.343 1.036 1.037 1.036h1.951ZM5.144 16.578c.617 0 .921-.297.921-.922v-5.015c.079.273.282.5.618.703l8.03 4.719c.266.164.516.265.798.265.539 0 1-.406 1-1.195V5.578c0-.789-.461-1.195-1-1.195-.282 0-.532.11-.797.265l-8.031 4.72c-.336.202-.54.429-.618.702v-5c0-.648-.304-.93-.921-.93H3.41c-.617 0-.922.305-.922.93v10.586c0 .625.305.922.922.922h1.735Z"></path>
+                  </svg>
+                </span>
+                <span>Are You Listening</span>
+                <span>How To Be Human</span>
+                <span>Chelsea Cutler</span>
+              </div>
+            </div>
+            <div id="contentBox4">
+              <img src={contentBoxLastImg} alt="" />
+              <div id="contentBox4-bottom">
+                <p>Creation Comes Alive</p>
+                <span>Petit Biscuit</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
