@@ -201,16 +201,23 @@ const Home = () => {
           <div id="right-left">
             <p className="content2-heading">Shareable</p>
             <p className="content2-para">
-            Export your themes and share them with friends using the handy new Sleeve Theme file format.
+              Export your themes and share them with friends using the handy new
+              Sleeve Theme file format.
             </p>
             <p className="content2-para">
-            Install themes from anywhere with a double-click or a drag and drop.
+              Install themes from anywhere with a double-click or a drag and
+              drop.
             </p>
           </div>
           <div id="right-right">
             <img id="right-1img" src={content2Right1} alt="" />
           </div>
         </div>
+      </section>
+      <section id="customization">
+        <p id="coustum-heading"> CUSTOMIZATION</p>
+        <h2 >Countless ways to customize.</h2>
+        <p id="coustum-intro">Customization is at the core of the Sleeve experience — choose from any combination of design choices, behaviors and settings to make Sleeve at home on your desktop.</p>
       </section>
     </div>
   );
