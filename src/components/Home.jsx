@@ -7,6 +7,11 @@ import contentBoxLastImg from "../Assets/ImagesFolder/ArtPetitBiscuit.jpg";
 import contentBoxFirstImg from "../Assets/ImagesFolder/ArtSlowMagic.jpg";
 import contentBoxSecondImg from "../Assets/ImagesFolder/ArtCarolinePolachek.jpg";
 import contentBoxThirdImg from "../Assets/ImagesFolder/ArtChelseaCutler.jpg";
+import content2LeftBg from "../Assets/ImagesFolder/ThemeIcon@2x.png";
+import content2Left1 from "../Assets/ImagesFolder/ThemeUIActive@2x.png";
+import content2Left2 from "../Assets/ImagesFolder/ThemeUI@2x.png";
+import content2RightBg from "../Assets/ImagesFolder/ThemeFile@2x.png";
+import content2Right1 from "../Assets/ImagesFolder/ThemeExport@2x.png";
 
 const Home = () => {
   return (
@@ -169,6 +174,41 @@ const Home = () => {
                 <span>Petit Biscuit</span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="content2">
+        <div id="left">
+          <img id="bg-img" src={content2LeftBg} alt="" />
+          <div id="left-left">
+            <p className="content2-heading">Change it up</p>
+            <p className="content2-para">
+              Switch between themes <br /> with just a click.
+            </p>
+            <p className="content2-para">
+              Modify the built-in themes or create your own using <br />
+              Sleeve’s extensive preferences.
+            </p>
+          </div>
+          <div id="left-right">
+            <img id="left-1stimg" src={content2Left1} alt="" />
+            <img id="left-2ndimg" src={content2Left2} alt="" />
+          </div>
+          <div id="left-right"></div>
+        </div>
+        <div id="right">
+          <img id="rightbg-img" src={content2RightBg} alt="" />
+          <div id="right-left">
+            <p className="content2-heading">Shareable</p>
+            <p className="content2-para">
+            Export your themes and share them with friends using the handy new Sleeve Theme file format.
+            </p>
+            <p className="content2-para">
+            Install themes from anywhere with a double-click or a drag and drop.
+            </p>
+          </div>
+          <div id="right-right">
+            <img id="right-1img" src={content2Right1} alt="" />
           </div>
         </div>
       </section>
