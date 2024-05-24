@@ -317,7 +317,8 @@ body {
   z-index: 0;
 }
 
-#left-1stimg,#left-2ndimg{
+#left-1stimg,
+#left-2ndimg {
   width: 236px;
   height: 120px;
   transform: rotateZ(3deg);
@@ -326,17 +327,17 @@ body {
   bottom: -2rem;
   margin-left: 10px;
 }
-#left-2ndimg{
+#left-2ndimg {
   bottom: -0rem;
   left: 1rem;
 }
-.content2-heading{
+.content2-heading {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
   margin-left: 44px;
 }
-.content2-para{
+.content2-para {
   font-size: 18px;
   line-height: 28px;
   margin-left: 44px;
@@ -356,7 +357,7 @@ body {
   position: relative;
 }
 
-#rightbg-img{
+#rightbg-img {
   height: 270px;
   position: absolute;
   bottom: -35px;
@@ -365,22 +366,19 @@ body {
   opacity: 0.5;
 }
 
-#right-right{
- margin-right: 120px;
- position: relative;
+#right-right {
+  margin-right: 120px;
+  position: relative;
 }
-#right-1img{
+#right-1img {
   height: 150px;
   width: 150px;
   position: inherit;
   left: 15px;
   transform: rotateZ(4deg);
-
 }
 
-
-
-#customization{
+#customization {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -390,7 +388,7 @@ body {
   padding-bottom: 7rem;
 }
 
-#coustum-heading{
+#coustum-heading {
   color: rgb(120, 58, 245);
   font-size: 12.8px;
   letter-spacing: 0.64px;
@@ -398,19 +396,98 @@ body {
   font-weight: 600;
 }
 
-
-#customization h2{
+#customization h2 {
   margin-top: 2rem;
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
   text-align: center;
 }
-#customization #coustum-intro{
+#customization #coustum-intro {
   font-size: 1.5rem;
   line-height: 2rem;
   max-width: 896px;
   margin-top: 2rem;
   text-align: center;
-  
+}
+
+#img-overlap {
+  margin-top: 3.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+#img-overlap #img1 {
+  height: 96px;
+  width: 96px;
+  position: relative;
+  left: 120px;
+  z-index: 6;
+}
+
+#img-overlap #img2 {
+  height: 107px;
+  width: 106px;
+  position: relative;
+  left: 90px;
+  z-index: 7;
+}
+
+#img-overlap #img3 {
+  height: 117px;
+  width: 117px;
+  position: relative;
+  left: 60px;
+  z-index: 8;
+}
+
+#img-overlap #img4 {
+  height: 126px;
+  width: 126px;
+  position: relative;
+  left: 30px;
+  z-index: 9;
+}
+
+#img-overlap #img5 {
+  height: 136px;
+  width: 136px;
+  position: relative;
+  z-index: 10;
+}
+
+#img-overlap #img6 {
+  height: 126px;
+  width: 126px;
+  position: relative;
+  right: 30px;
+  z-index: 9;
+}
+
+#img-overlap #img7 {
+  height: 117px;
+  width: 117px;
+  position: relative;
+  right: 60px;
+  z-index: 8;
+}
+
+#img-overlap #img8 {
+  height: 107px;
+  width: 106px;
+  position: relative;
+  right: 90px;
+  z-index: 7;
+}
+
+#img-overlap #img9 {
+  height: 96px;
+  width: 96px;
+  position: relative;
+  right: 120px;
+  z-index: 6;
 }
