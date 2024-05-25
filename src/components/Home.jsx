@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import appleMusic from "../Assets/ImagesFolder/AppMusic@2x.png";
 import spotify from "../Assets/ImagesFolder/AppSpotify@2x.png";
 import doppler from "../Assets/ImagesFolder/AppDoppler@2x.png";
@@ -44,6 +44,13 @@ import settingsRight2 from "../Assets/ImagesFolder/Settings2@2x.jpg"
 import settingsRight3 from "../Assets/ImagesFolder/Settings3@2x.jpg"
 
 const Home = () => {
+
+  // const scrollref=useRef(null)
+  // useEffect(()=>{
+  //   if(scrollref.current){
+  //     scrollref.current.scrollTop=500
+  //   }
+  // },[])
   return (
     <div>
       <section id="intro">
