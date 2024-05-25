@@ -13,16 +13,19 @@ import content2Left2 from "../Assets/ImagesFolder/ThemeUI@2x.png";
 import content2RightBg from "../Assets/ImagesFolder/ThemeFile@2x.png";
 import content2Right1 from "../Assets/ImagesFolder/ThemeExport@2x.png";
 
-import overlapImg1 from "../Assets/ImagesFolder/IconArrayHotkeys@2x.png"
-import overlapImg2 from "../Assets/ImagesFolder/IconArrayWindow@2x.png"
-import overlapImg3 from "../Assets/ImagesFolder/IconArrayInterface@2x.png"
-import overlapImg4 from "../Assets/ImagesFolder/IconArrayLayout@2x.png"
-import overlapImg5 from "../Assets/ImagesFolder/IconArrayTheme@2x.png"
-import overlapImg6 from "../Assets/ImagesFolder/IconArrayTrack@2x.png"
-import overlapImg7 from "../Assets/ImagesFolder/IconArrayPosition@2x.png"
-import overlapImg8 from "../Assets/ImagesFolder/IconArrayArtwork@2x.png"
-import overlapImg9 from "../Assets/ImagesFolder/IconArraySettings@2x.png"
-
+import overlapImg1 from "../Assets/ImagesFolder/IconArrayHotkeys@2x.png";
+import overlapImg2 from "../Assets/ImagesFolder/IconArrayWindow@2x.png";
+import overlapImg3 from "../Assets/ImagesFolder/IconArrayInterface@2x.png";
+import overlapImg4 from "../Assets/ImagesFolder/IconArrayLayout@2x.png";
+import overlapImg5 from "../Assets/ImagesFolder/IconArrayTheme@2x.png";
+import overlapImg6 from "../Assets/ImagesFolder/IconArrayTrack@2x.png";
+import overlapImg7 from "../Assets/ImagesFolder/IconArrayPosition@2x.png";
+import overlapImg8 from "../Assets/ImagesFolder/IconArrayArtwork@2x.png";
+import overlapImg9 from "../Assets/ImagesFolder/IconArraySettings@2x.png";
+import artworkLeft1 from "../Assets/ImagesFolder/IconArrayArtwork@2x.png"
+import artworkRight1 from "../Assets/ImagesFolder/Artwork1@2x.jpg"
+import artworkRight2 from "../Assets/ImagesFolder/Artwork2@2x.jpg"
+import artworkRight3 from "../Assets/ImagesFolder/Artwork3@2x.jpg"
 
 
 
@@ -229,8 +232,12 @@ const Home = () => {
       </section>
       <section id="customization">
         <p id="coustum-heading"> CUSTOMIZATION</p>
-        <h2 >Countless ways to customize.</h2>
-        <p id="coustum-intro">Customization is at the core of the Sleeve experience — choose from any combination of design choices, behaviors and settings to make Sleeve at home on your desktop.</p>
+        <h2>Countless ways to customize.</h2>
+        <p id="coustum-intro">
+          Customization is at the core of the Sleeve experience — choose from
+          any combination of design choices, behaviors and settings to make
+          Sleeve at home on your desktop.
+        </p>
         <div id="img-overlap">
           <img src={overlapImg1} alt="" id="img1" />
           <img src={overlapImg2} alt="" id="img2" />
@@ -243,6 +250,29 @@ const Home = () => {
           <img src={overlapImg9} alt="" id="img9" />
         </div>
       </section>
+      <section id="scroll-section">
+        <div id="scroll-sectionContent" >
+          <div id="artwork">
+            <div id="artwork-content">
+              <img className="scorll-leftImg" src={artworkLeft1} alt="" />
+              <h3 className="scroll-sectionContent-heading" style={{marginBottom:"6rem"}}>Artwork</h3>
+              <p className="scroll-sectionContent-para">Scale artwork all the way up or all the way down. Round the corners or leave them square.</p>
+              <p className="scroll-sectionContent-para">Choose shadow and lighting effects to bring your album artwork to life.</p>
+              <p className="scroll-sectionContent-para">Or hide it completely.</p>
+            </div>
+            <div id="artwork-image">
+              <img id="artworkRight1img" src={artworkRight1} alt="" />
+              <img id="artworkRight2img" src={artworkRight2} alt="" />
+              <img id="artworkRight3img" src={artworkRight3} alt="" />
+            </div>
+          </div>
+          
+        </div>
+        <div id="scroll-sectionBox">
+          
+        </div>
+      </section>
+      <section id="last"></section>
     </div>
   );
 };
