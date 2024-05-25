@@ -35,6 +35,14 @@ import intefaceLeft3 from "../Assets/ImagesFolder/IconArrayInterface@2x.png";
 import intefaceRight1 from "../Assets/ImagesFolder/Interface1@2x.jpg"
 import intefaceRight2 from "../Assets/ImagesFolder/Interface2@2x.jpg"
 
+import settingsLeft1 from "../Assets/ImagesFolder/IconArrayWindow@2x.png"
+import settingsLeft2 from "../Assets/ImagesFolder/IconArrayHotkeys@2x.png"
+import settingsLeft3 from "../Assets/ImagesFolder/IconArraySettings@2x.png"
+
+import settingsRight1 from "../Assets/ImagesFolder/Settings1@2x.jpg"
+import settingsRight2 from "../Assets/ImagesFolder/Settings2@2x.jpg"
+import settingsRight3 from "../Assets/ImagesFolder/Settings3@2x.jpg"
+
 const Home = () => {
   return (
     <div>
@@ -349,6 +357,52 @@ const Home = () => {
             <img id="intefaceRight2" src={intefaceRight2} alt="" />
 
             </div>
+          </div>
+          <div id="settings">
+            <div id="settings-content">
+            <div id="interface-overlap">
+                <img
+                  className="scorll-leftImg"
+                  id="interfaceLeft1"
+                  src={settingsLeft1}
+                  alt=""
+                />
+                <img
+                  className="scorll-leftImg"
+                  id="interfaceLeft2"
+                  src={settingsLeft2}
+                  alt=""
+                />
+                <img
+                  className="scorll-leftImg"
+                  id="interfaceLeft3"
+                  src={settingsLeft3}
+                  alt=""
+                />
+              </div>
+              <h3
+                className="scroll-sectionContent-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Settings
+              </h3>
+              <p className="scroll-sectionContent-para">
+              Decide if Sleeve stays out of the way, behind windows, or in front of them — or only when you need to see it.
+              </p>
+              <p className="scroll-sectionContent-para">
+              Show it in the Dock, choose from custom icons, or keep it on the Desktop only.
+              </p>
+              <p className="scroll-sectionContent-para">
+              Set your custom keyboard shortcuts and integrate with the apps you use.
+              </p>
+
+            </div>
+            <div id="settings-image">
+            <img id="settingsRight1" src={settingsRight1} alt="" />
+            <img id="settingsRight2" src={settingsRight2} alt="" />
+            <img id="settingsRight3" src={settingsRight3} alt="" />
+            </div>
+
           </div>
         </div>
         <div id="scroll-sectionBox">
