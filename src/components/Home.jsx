@@ -22,12 +22,18 @@ import overlapImg6 from "../Assets/ImagesFolder/IconArrayTrack@2x.png";
 import overlapImg7 from "../Assets/ImagesFolder/IconArrayPosition@2x.png";
 import overlapImg8 from "../Assets/ImagesFolder/IconArrayArtwork@2x.png";
 import overlapImg9 from "../Assets/ImagesFolder/IconArraySettings@2x.png";
-import artworkLeft1 from "../Assets/ImagesFolder/IconArrayArtwork@2x.png"
-import artworkRight1 from "../Assets/ImagesFolder/Artwork1@2x.jpg"
-import artworkRight2 from "../Assets/ImagesFolder/Artwork2@2x.jpg"
-import artworkRight3 from "../Assets/ImagesFolder/Artwork3@2x.jpg"
-
-
+import artworkLeft1 from "../Assets/ImagesFolder/IconArrayArtwork@2x.png";
+import artworkRight1 from "../Assets/ImagesFolder/Artwork1@2x.jpg";
+import artworkRight2 from "../Assets/ImagesFolder/Artwork2@2x.jpg";
+import artworkRight3 from "../Assets/ImagesFolder/Artwork3@2x.jpg";
+import typographyleft1 from "../Assets/ImagesFolder/IconArrayTrack@2x.png";
+import typographyRight1 from "../Assets/ImagesFolder/Typography1@2x.jpg";
+import typographyRight2 from "../Assets/ImagesFolder/Typography2@2x.jpg";
+import intefaceLeft1 from "../Assets/ImagesFolder/IconArrayLayout@2x.png";
+import intefaceLeft2 from "../Assets/ImagesFolder/IconArrayPosition@2x.png";
+import intefaceLeft3 from "../Assets/ImagesFolder/IconArrayInterface@2x.png";
+import intefaceRight1 from "../Assets/ImagesFolder/Interface1@2x.jpg"
+import intefaceRight2 from "../Assets/ImagesFolder/Interface2@2x.jpg"
 
 const Home = () => {
   return (
@@ -251,14 +257,27 @@ const Home = () => {
         </div>
       </section>
       <section id="scroll-section">
-        <div id="scroll-sectionContent" >
+        <div id="scroll-sectionContent">
           <div id="artwork">
             <div id="artwork-content">
               <img className="scorll-leftImg" src={artworkLeft1} alt="" />
-              <h3 className="scroll-sectionContent-heading" style={{marginBottom:"6rem"}}>Artwork</h3>
-              <p className="scroll-sectionContent-para">Scale artwork all the way up or all the way down. Round the corners or leave them square.</p>
-              <p className="scroll-sectionContent-para">Choose shadow and lighting effects to bring your album artwork to life.</p>
-              <p className="scroll-sectionContent-para">Or hide it completely.</p>
+              <h3
+                className="scroll-sectionContent-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Artwork
+              </h3>
+              <p className="scroll-sectionContent-para">
+                Scale artwork all the way up or all the way down. Round the
+                corners or leave them square.
+              </p>
+              <p className="scroll-sectionContent-para">
+                Choose shadow and lighting effects to bring your album artwork
+                to life.
+              </p>
+              <p className="scroll-sectionContent-para">
+                Or hide it completely.
+              </p>
             </div>
             <div id="artwork-image">
               <img id="artworkRight1img" src={artworkRight1} alt="" />
@@ -266,10 +285,74 @@ const Home = () => {
               <img id="artworkRight3img" src={artworkRight3} alt="" />
             </div>
           </div>
-          
+          <div id="typography">
+            <div id="typography-content">
+              <img className="scorll-leftImg" src={typographyleft1} alt="" />
+              <h3
+                className="scroll-sectionContent-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Typography
+              </h3>
+              <p className="scroll-sectionContent-para">
+                Pick the track info you want to display, and then exactly how to
+                display it.
+              </p>
+              <p className="scroll-sectionContent-para">
+                Choose the fonts, weights, sizes, and transparency to use for
+                each line, along with customizing color and shadow.
+              </p>
+            </div>
+            <div id="typography-image">
+              <img id="typographyRight1" src={typographyRight1} alt="" />
+              <img id="typographyRight2" src={typographyRight2} alt="" />
+            </div>
+          </div>
+          <div id="interface">
+            <div id="interface-content">
+              <div id="interface-overlap">
+                <img
+                  className="scorll-leftImg"
+                  id="interfaceLeft1"
+                  src={intefaceLeft1}
+                  alt=""
+                />
+                <img
+                  className="scorll-leftImg"
+                  id="interfaceLeft2"
+                  src={intefaceLeft2}
+                  alt=""
+                />
+                <img
+                  className="scorll-leftImg"
+                  id="interfaceLeft3"
+                  src={intefaceLeft3}
+                  alt=""
+                />
+              </div>
+              <h3
+                className="scroll-sectionContent-heading"
+                style={{ marginBottom: "6rem" }}
+              >
+                Interface
+              </h3>
+              <p className="scroll-sectionContent-para">
+                Customize the layout, alignment and position to fit your setup.
+              </p>
+              <p className="scroll-sectionContent-para">
+                Show and hide playback controls. Add a backdrop layer and
+                customize it.
+              </p>
+            </div>
+            <div id="interface-image">
+            <img id="intefaceRight1" src={intefaceRight1} alt="" />
+            <img id="intefaceRight2" src={intefaceRight2} alt="" />
+
+            </div>
+          </div>
         </div>
         <div id="scroll-sectionBox">
-          
+
         </div>
       </section>
       <section id="last"></section>

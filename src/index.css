@@ -501,7 +501,7 @@ body {
   padding-right: 2rem;
 }
 
-#scroll-sectionContent{
+#scroll-sectionContent {
   padding-left: 3rem;
   width: 100%;
   height: 500px;
@@ -509,28 +509,27 @@ body {
   position: relative;
   z-index: 2;
 }
-#scroll-sectionBox{
-height: 500px;
-width: 600px;
-background-image: url("../src/Assets/ImagesFolder/SonomaWallpaperBanner@2x.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: absolute;
-left: 50%;
-z-index: 1;
-border-radius: 2rem;
-
+#scroll-sectionBox {
+  height: 500px;
+  width: 600px;
+  background-image: url("../src/Assets/ImagesFolder/SonomaWallpaperBanner@2x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  border-radius: 2rem;
 }
 
-#scroll-sectionContent::-webkit-scrollbar{
+#scroll-sectionContent::-webkit-scrollbar {
   display: none;
 }
-#scroll-sectionBox::-webkit-scrollbar{
+#scroll-sectionBox::-webkit-scrollbar {
   display: none;
 }
 
-#artwork{
+#artwork {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -539,13 +538,12 @@ border-radius: 2rem;
   top: 13rem;
 }
 
-
-.scorll-leftImg{
+.scorll-leftImg {
   height: 86px;
   width: 86px;
 }
 
-.scroll-sectionContent-heading{
+.scroll-sectionContent-heading {
   position: relative;
   top: 1.5rem;
   font-size: 48px;
@@ -553,47 +551,128 @@ border-radius: 2rem;
   line-height: 48px;
 }
 
-
-.scroll-sectionContent-para{
+.scroll-sectionContent-para {
   margin-top: 1.5rem;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  max-width :362.25px;
+  max-width: 362.25px;
 }
-#artwork-image{
-  width: 100%;
+#artwork-image {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
-#artworkRight1img{
+#artworkRight1img {
   width: 340px;
   object-fit: contain;
   border-radius: 15px;
   position: relative;
-  left: 15%;
-  box-shadow: 0.5px 0.5px 2px ,-0.5px -0.5px 2px;
-
+  right: 4%;
+  box-shadow: 0.5px 0.5px 2px, -0.5px -0.5px 2px;
 }
-#artworkRight2img{
+#artworkRight2img {
   margin-top: 2rem;
   width: 340px;
   object-fit: contain;
   position: relative;
-  left: 15%;
+  right: 4%;
   border-radius: 15px;
-  box-shadow: 0.5px 0.5px 2px ,-0.5px -0.5px 2px;
+  box-shadow: 0.5px 0.5px 2px, -0.5px -0.5px 2px;
 }
-#artworkRight3img{
+#artworkRight3img {
   object-fit: contain;
   margin-top: 2rem;
   width: 340px;
   border-radius: 15px;
   position: relative;
-  left: 15%;
-  box-shadow: 0.5px 0.5px 2px ,-0.5px -0.5px 2px;
+  right: 4%;
+  box-shadow: 0.5px 0.5px 2px, -0.5px -0.5px 2px;
+}
+
+#typography {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 26rem;
+}
+
+#typography-image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#typographyRight1,
+#typographyRight2 {
+  width: 340px;
+  object-fit: contain;
+  border-radius: 15px;
+  position: relative;
+  right: 4%;
+
+  box-shadow: 0.5px 0.5px 2px, -0.5px -0.5px 2px;
+}
+
+#typographyRight2 {
+  margin-top: 2rem;
+  bottom: 0rem;
+}
+
+#interface {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 39rem;
+}
+
+#interface-overlap {
+  display: flex;
+}
+
+#interfaceLeft2 {
+  position: relative;
+  right: 12%;
+  top: 0.5rem;
+}
+
+#interfaceLeft3 {
+  position: relative;
+  right: 24%;
+  top: 1rem;
+}
+
+#interface-image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#intefaceRight1,
+#intefaceRight2 {
+  width: 340px;
+  object-fit: contain;
+  border-radius: 15px;
+  position: relative;
+  right: 4%;
+
+  box-shadow: 0.5px 0.5px 2px, -0.5px -0.5px 2px;
+}
+#intefaceRight1{
+  z-index: 4;
+}
+#intefaceRight2 {
+  position: relative;
+  bottom: 1.5rem;
+  right: 0rem;
 }
