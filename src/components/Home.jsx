@@ -409,7 +409,10 @@ const Home = () => {
 
         </div>
       </section>
-      <section id="last"></section>
+      <section id="like-scroll">
+        <p> INTEGRATIONS</p>
+        <h2>Like, Scrobble.</h2>
+      </section>
     </div>
   );
 };
