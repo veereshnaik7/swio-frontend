@@ -160,7 +160,7 @@ body {
 #contentBox {
   margin-top: 3rem;
   height: 360px;
-  width: 95%;
+  width: 1200px;
   background: linear-gradient(to top right, #0e95ee, #27c9f5);
   border-radius: 16px;
   overflow: hidden;
@@ -290,7 +290,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #content2 #left {
@@ -305,6 +305,7 @@ body {
   align-items: center;
   overflow: hidden;
   position: relative;
+  margin-right: 24px;
 }
 #left #bg-img {
   height: 220px;
@@ -355,6 +356,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-left: 24px;
 }
 
 #rightbg-img {
